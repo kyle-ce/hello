@@ -28,8 +28,8 @@ pipeline {
         }
     }
     post {
-        success {
-            'Build was successfull homey'
+        any {
+            echo 'You did it congratulations on your first jenkins deploy!!!'
             }
     }
 }
