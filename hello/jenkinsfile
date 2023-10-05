@@ -28,8 +28,6 @@ pipeline {
         }
     }
     post {
-        any {
             echo 'You did it congratulations on your first jenkins deploy!!!'
-            }
     }
 }
